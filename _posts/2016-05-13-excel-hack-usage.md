@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "excel"
+title:  "excel使用"
 date:   2016-05-13 21:10:00 +0800
 categories: excel
 ---
@@ -25,6 +25,6 @@ A:A代表范围，也可以是A1:A10
 7、vlookup函数
 
 vlookup(查找值，查找范围，索引列数，匹配条件)
-![picture](/upload/images/excel.png)
+![picture](/blog/upload/images/excel.png)
 
 在查找范围的第一列内根据匹配条件搜索查找值，返回从查找范围的第一列起的索引列数的那各对应于查找值的那个值。
