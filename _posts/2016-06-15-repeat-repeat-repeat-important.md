@@ -2,7 +2,7 @@
 layout: post
 title:  "重复做，重复做，重复做，重要的事情说三遍"
 date:   2015-06-15 19:25:00 +0800
-categories: 感悟
+categories: 感想
 ---
 
 
