@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "bootstrap"
-date:   2017-03-31 21:51:00 +0800
-categories: bootstrap
+date:   2017-03-26 20:42:00 +0800
+categories: css
+tags: [css]
 ---
 
 1.学习bootstrap提供的基本css类，基本组件的使用
