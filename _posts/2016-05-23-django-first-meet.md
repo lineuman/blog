@@ -3,6 +3,7 @@ layout: post
 title:  "django初识"
 date:   2016-05-23 22:29:00 +0800
 categories: django
+tags: [django]
 ---
 
 万事开头难，但过程也不简单，如何开头，照着下面的步骤，一个简单的网站就被搭建起来了，容易吧

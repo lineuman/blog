@@ -3,6 +3,7 @@ layout: post
 title:  "正则表达式"
 date:   2015-08-15 15:14:00 +0800
 categories: regex
+tags: [regex]
 ---
 
 推荐一个regex学习网站[http://regexr.com/](http://regexr.com/)

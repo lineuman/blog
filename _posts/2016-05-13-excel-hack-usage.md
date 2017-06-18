@@ -3,6 +3,7 @@ layout: post
 title:  "excel使用"
 date:   2016-05-13 21:10:00 +0800
 categories: excel
+tags: [excel]
 ---
 
 物料资产都是通过execel在管理，而当要我整理的时候真是痛苦，200多行的execel已经非常难整理了，所幸的是慢慢的也学会到一点初级基础，总结如下。

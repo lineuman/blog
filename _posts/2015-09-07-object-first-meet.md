@@ -3,6 +3,7 @@ layout: post
 title:  "初识面向对象"
 date:   2015-09-07 23:14:00 +0800
 categories: object-oriented
+tags: [object-oriented]
 ---
 ## 面向对象编程
 从今天开始正式接触面向对象编程思想，说实在的我连面向过程是什么思想都不清楚，但是我必须去学习这种提高效率的哲学思想.
