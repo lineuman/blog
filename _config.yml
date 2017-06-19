@@ -34,4 +34,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   
+favicon: favicon.ico
 excerpt_separator:  '<!-- more -->'
