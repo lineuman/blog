@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Tags
+layout: default
+title: 按标签查看
 ---
 
 <div class="tags-expo">
