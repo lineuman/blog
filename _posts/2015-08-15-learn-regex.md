@@ -4,6 +4,7 @@ title:  "正则表达式"
 date:   2015-08-15 15:14:00 +0800
 categories: regex
 tags: [regex]
+excerpt: "正则表达式产生于计算机远古时代，经过不断地发展,现在已经被用到了很多地方，sed,grep,vi等等一些工具都支持一定的正则表达式，在Django框架中，url的匹配也是使用的正则表达式。"
 ---
 
 推荐一个regex学习网站[http://regexr.com/](http://regexr.com/)
