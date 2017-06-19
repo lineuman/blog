@@ -31,7 +31,7 @@ I'm neuman, a primary coder, I'm interest in network security, python web spider
 
 My favorite word is `Challenage Accepted!`
 
-# my old blog
+# Old blog
 [before 2017-06](http://blog.csdn.net/lineuman/)
 
 
