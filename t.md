@@ -1,3 +1,3 @@
-{% for page in site.pages %}
+{% for page in site.posts %}
 {{ page.url }}
 {% endfor %}
