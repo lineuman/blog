@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 # About blog
-[before 2017-06's blog](http://blog.csdn.net/lineuman/)
+
 This blog  used base Jekyll theme, minima template.
 
 On this blog I posts articles on programming and thoughts.
@@ -30,5 +30,9 @@ I'm neuman, a primary coder, I'm interest in network security, python web spider
 
 
 My favorite word is `Challenage Accepted!`
+
+# my old blog
+[before 2017-06](http://blog.csdn.net/lineuman/)
+
 
 
