@@ -1,3 +1,7 @@
+---
+layout: post
+tags: [javascript]
+---
 # REACT
 
 ## jsx
