@@ -20,3 +20,7 @@ var h1 = <h1>hello world</h>
 ReactDOM.render()
 
 ReactDOM.createElement()
+
+## React Components
+
+every component must come from a component class
