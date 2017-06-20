@@ -15,3 +15,8 @@ var h1 = <h1>hello world</h>
 ## how if statement
 
 
+## React function
+
+ReactDOM.render()
+
+ReactDOM.createElement()
