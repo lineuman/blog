@@ -9,8 +9,30 @@ categories: python
 [http://eli.thegreenplace.net/2011/08/14/python-metaclasses-by-example](http://eli.thegreenplace.net/2011/08/14/python-metaclasses-by-example)
 
 # 到底什么是metaclass???
+假如你想创建一个类（注意是类，不是类的实例），那么你可以使用`__mateclass__`属性来告诉这个类怎么来构造。
+* 使用class关键字创建一个类
+* 使用type生成类
+* 使用type的子类来生成类
+
+## metaclass和继承有什么区别？
 
 ## Metaclass
+```
+class Interface(object):
+    __metaclass__ = InterfaceMeta
+    file = 'tmp.txt'
+    
+print(Interface.class_id)
+print(Interface.file)
+```
+`__metaclass__`
+
+by defining the `__metaclass__` attribute of the class, we've told the class that it should be constructed using `InterfaceMeta` rather than using `type`. To make this more definite, observe that the type of Interface is now InterfaceMeta:
+
+`type(Interface)`
+
+`__main__.InterfaceMeta`
+
 
 ### Class
 
