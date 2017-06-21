@@ -6,6 +6,8 @@ categories: python
 ---
 [a-primer-on-python-metaclasses](https://jakevdp.github.io/blog/2012/12/01/a-primer-on-python-metaclasses/)
 
+[http://eli.thegreenplace.net/2011/08/14/python-metaclasses-by-example](http://eli.thegreenplace.net/2011/08/14/python-metaclasses-by-example)
+
 # 到底什么是metaclass???
 
 ## Metaclass
@@ -29,6 +31,7 @@ decorator
 
 ###  Custom Metaclasses(定制属于你的元类)
 Now things get really fun. Just as we can inherit from and extend a class we've created, we can also inherit from and extend the `type` metaclass, and create custom behavior in our metaclass.
+### metaclass和继承的区别？
 
 ## python cookbook 3
 9.13 using a metaclass to control instance creation
