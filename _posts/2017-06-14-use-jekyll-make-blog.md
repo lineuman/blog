@@ -14,13 +14,13 @@ Transform your plain text into static websites and blogs
 
 参考教程
 
-https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/
+[https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/)
 
-https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
+[https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
 
-https://github.com/jekyll/minima#customization
+[https://github.com/jekyll/minima#customization](https://github.com/jekyll/minima#customization)
 
-https://jekyllrb.com/docs/themes/
+[https://jekyllrb.com/docs/themes/](https://jekyllrb.com/docs/themes/)
 ### 安装ruby
 ruby --version
 
@@ -38,7 +38,7 @@ bundle
 
 ### 通过标记文本生成html
 
-(https://jekyllrb.com/docs/usage/)
+[https://jekyllrb.com/docs/usage/](https://jekyllrb.com/docs/usage/)
 
 构建
 
