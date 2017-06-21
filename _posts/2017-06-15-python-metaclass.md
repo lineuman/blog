@@ -8,13 +8,14 @@ categories: python
 
 [http://eli.thegreenplace.net/2011/08/14/python-metaclasses-by-example](http://eli.thegreenplace.net/2011/08/14/python-metaclasses-by-example)
 
-# 到底什么是metaclass???
+## 到底什么是metaclass???
 假如你想创建一个类（注意是类，不是类的实例），那么你可以使用`__mateclass__`属性来告诉这个类怎么来构造。
+
+## 生成类的方式
 * 使用class关键字创建一个类
 * 使用type生成类
 * 使用type的子类来生成类
 
-## metaclass和继承有什么区别？
 
 ## Metaclass
 ```
@@ -61,3 +62,6 @@ Now things get really fun. Just as we can inherit from and extend a class we've 
 Using a metaclass to implement various instance create pattern can offer be a much elegant approach than other solutions not invoving metaclasses.
 
 singleton(单例模式) 或者不允许实例化的类
+
+## example
+Django meta
