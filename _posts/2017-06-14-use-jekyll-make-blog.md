@@ -5,8 +5,9 @@ date:   2017-06-14 23:25:16 +0800
 categories: jekyll update
 ---
 
-# 分分钟学会jekyll建站
-**类似于python中通过sphinx把rst文档转换为html**
+# jekyll+gitpages搭建博客
+
+**类似于python中通过sphinx把rst文档转换为html，ruby同样可以把markdown转化为html**
 
 jekyll是一个ruby实现的静态站点生成工具，你可以理解为通过markdown生成静态html的一种方法。
 
