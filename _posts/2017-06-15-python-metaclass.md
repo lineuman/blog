@@ -8,16 +8,16 @@ categories: python
 
 [http://eli.thegreenplace.net/2011/08/14/python-metaclasses-by-example](http://eli.thegreenplace.net/2011/08/14/python-metaclasses-by-example)
 
-## 到底什么是metaclass???
+### 什么是metaclass???
 假如你想创建一个类（注意是类，不是类的实例），那么你可以使用`__mateclass__`属性来告诉这个类怎么来构造。
 
-## 生成类的方式
+### 生成类的方式
 * 使用class关键字创建一个类
 * 使用type生成类
 * 使用type的子类来生成类
 
 
-## Metaclass
+### Metaclass
 ```
 class Interface(object):
     __metaclass__ = InterfaceMeta
@@ -35,7 +35,7 @@ by defining the `__metaclass__` attribute of the class, we've told the class tha
 `__main__.InterfaceMeta`
 
 
-### Class
+### class
 
 ### object
 
@@ -54,14 +54,15 @@ decorator
 
 ###  Custom Metaclasses(定制属于你的元类)
 Now things get really fun. Just as we can inherit from and extend a class we've created, we can also inherit from and extend the `type` metaclass, and create custom behavior in our metaclass.
+
 ### metaclass和继承的区别？
 
-## python cookbook 3
+### python cookbook 3
 9.13 using a metaclass to control instance creation
 
 Using a metaclass to implement various instance create pattern can offer be a much elegant approach than other solutions not invoving metaclasses.
 
 singleton(单例模式) 或者不允许实例化的类
 
-## example
+### example
 Django meta
