@@ -3,6 +3,7 @@ layout: post
 title:  "Django里面的python module学习"
 date:   2017-06-10 22:42:00 +0800
 categories: django
+tags: [django]
 ---
 [The Django template language](https://docs.djangoproject.com/en/1.11/ref/templates/api/)
 可以根据数据流动的方向来进行学习理解。
