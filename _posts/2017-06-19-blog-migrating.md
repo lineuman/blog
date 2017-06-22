@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "记录博客迁移"
+title:  "blog migrating"
 date:   2017-06-19 20:55:16 +0800
 categories: thoughts
 ---

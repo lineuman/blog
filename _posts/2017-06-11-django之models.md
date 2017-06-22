@@ -3,6 +3,7 @@ layout: post
 title:  "Django之modules"
 date:   2017-06-11 19:33:00 +0800
 categories: django
+tags: [django]
 ---
 
 Django的model实现了编程语言级别对数据表的抽象，一个model代表一个数据表。
