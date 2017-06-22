@@ -21,14 +21,12 @@ Django use the field class types 头determine a few things:
 
 https://docs.djangoproject.com/en/dev/ref/models/fields/#django.db.models.AutoField
 
+```
 AutoField
 BigAutoFiled
 A 64-bit integer, much like an AutoField except that it is guaranteed to fit numbers from 1 to 9223372036854775807.
-
 BinaryField
-
 BooleanField
-
 CharField
 DateField
 DateTimeField
@@ -50,4 +48,4 @@ TextField
 TimeField
 URLField
 UUIDField
-
+```
