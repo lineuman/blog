@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  " python解码编码"
+title:  "script,scriptreplay命令"
 date:   2017-04-05 21:28:00 +0800
 categories: linux
 tags: [linux]
