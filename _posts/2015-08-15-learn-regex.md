@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "正则表达式"
+title:  "regular regex-learning"
 date:   2015-08-15 15:14:00 +0800
 categories: regex
 tags: [regex]
