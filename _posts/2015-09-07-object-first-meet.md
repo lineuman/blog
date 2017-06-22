@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "初识面向对象"
+title:  "object-oriented-firet-meet"
 date:   2015-09-07 23:14:00 +0800
 categories: object-oriented
 tags: [object-oriented]
@@ -15,3 +15,12 @@ tags: [object-oriented]
 首先选择一门语言，然后去理解面向对象这个概念，学习资源就是在网上找吧，学习笔记也记录在网上。
 
 编程在你没有找到乐趣之前，是一件枯燥的事,但是有人说程序员很帅的哦。
+
+=====2017-06-22 重新编辑====
+
+### Python中的面向对象思想
+
+c中的struct是数据的集合
+
+python一切都是对象，复杂的对象是数据与函数的集合，可以看做是一种封装了的抽象表达。
+
