@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "感谢相信你鼓励你的人"
+title:  "thanks the person who encouraged you"
 date:   2015-07-04 22:35:00 +0800
 categories: thoughts
 tags: [thoughts]
