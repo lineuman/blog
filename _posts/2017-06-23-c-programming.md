@@ -12,16 +12,32 @@
 ### data types
 
 In Standard C there are four basic data types. They are int, char, float, and double.
-### printf usage
+
+### output and input
+printf
 
 ```
 %d  int
 %f  float
 %c  char
-%s   string
+%s   string
+%p pointer
+```
+
+scanf
+
+it might read as: "Read in an integer from the user and store it at the address of variable a ".
 
 ```
-###
+scanf("%d", &a);
+
+```
+
+```
+scanf("%s", a);
+```
+**This is because, whenever you use a format specifier for a string (%s), the variable that you use to store the value will be an array and, the array names (in this case - a) themselves point out to their base address and hence, the address of operator is not required.**
+
 ### for 
 ```
 int i = 0;
