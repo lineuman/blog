@@ -1,3 +1,5 @@
+真的是太喜欢c的速度了
+
 ## gcc
 ## gdb
 ## glibc
@@ -10,7 +12,15 @@
 ### data types
 
 In Standard C there are four basic data types. They are int, char, float, and double.
+### printf usage
 
+```
+%d  int
+%f  float
+%c  char
+%s   string
+
+```
 ###
 ### for 
 ```
