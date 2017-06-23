@@ -1,4 +1,4 @@
-真的是太喜欢c的速度了，但如果你连c的指针计算都搞不定，那就好比你活生生的错过了绝世美女,如果真的是那样，人生就太遗憾了。
+真的是太欣赏c的速度了，但如果你连c的指针计算都搞不定，那就好比你活生生的错过了绝世美女,如果真的是那样，人生就太遗憾了。
 
 ## gcc
 ## gdb
@@ -134,3 +134,31 @@ Start:
 指针是地址
 
 指针变量是用来存放指针的变量
+
+空指针的存放的值为0
+
+```
+#include <stdio.h>
+
+int main () {
+
+   int  *ptr = NULL;
+
+   printf("The value of ptr is : %x\n", ptr  );
+ 
+   return 0;
+}
+When the above code is compiled and executed, it produces the following result −
+
+The value of ptr is 0
+```
+
+指针算数
+[https://www.tutorialspoint.com/cprogramming/c_pointer_arithmetic.htm](https://www.tutorialspoint.com/cprogramming/c_pointer_arithmetic.htm)
+有四种算数操作符可以应用到指针变量上面，`++`, `--`, `+`, `-`
+
+### Incrementing a Pointer
+
+### Decrementing a Pointer
+
+### Pointer Comparisons
