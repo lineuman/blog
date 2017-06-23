@@ -128,3 +128,9 @@ Start:
    break;
  }
  ```
+
+## Pointers and arrays
+
+指针是地址
+
+指针变量是用来存放指针的变量
