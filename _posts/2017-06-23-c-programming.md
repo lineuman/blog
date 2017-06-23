@@ -78,3 +78,38 @@ for(i=0;i<100;i++)
   printf("%d", i);
 }
 ```
+
+### while
+
+```
+int i = 0;
+while (i < 100)
+{
+ //do something
+ i++;
+}
+```
+
+### do...while
+
+```
+do{
+}while(condition)
+```
+
+### break continue
+break 跳出循环
+
+continue 跳出本次循环
+
+### goto
+```
+Start:
+   if (!''cond1'') goto End;
+   S;
+   if (''cond2'') goto End;
+   T;
+   goto Start;
+ End:
+   /* ... */
+```
