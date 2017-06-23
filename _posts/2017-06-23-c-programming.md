@@ -113,3 +113,18 @@ Start:
  End:
    /* ... */
 ```
+
+### switch case
+```
+ switch (something) {
+ case 2:
+ case 3:
+ case 4:
+   /* some statements to execute for 2, 3 or 4 */
+   break;
+ case 1:
+ default:
+   /* some statements to execute for 1 or other than 2,3,and 4 */
+   break;
+ }
+ ```
