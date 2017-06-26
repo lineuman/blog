@@ -56,3 +56,19 @@ TimeField
 URLField
 UUIDField
 ```
+
+# Django Query
+Once you created your data models, Django automatically gives you a database-abstraction API that lets you create, retrieve, update, and delete objects.`CRUD`
+
+A models classs represents a database table, and an instance of that class represents a particalar record in the database table.
+
+## QuerySet
+
+## Manager
+
+```
+Blog.objects.filter(**kwargs)
+.exclude（）
+.all()
+.get()
+```
