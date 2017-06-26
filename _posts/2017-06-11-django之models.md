@@ -80,8 +80,19 @@ Blog.objects.filter(**kwargs)
 
 `django.db.models.Q`
 
-Q 对象的好处就是允许你构建复杂的where语句，sql中的AND, OR, NOT 对应于Q查询中的&, |, ~
+Q 对象的好处就是允许你构建复杂的where语句，`sql中的AND, OR, NOT 对应于Q查询中的&, |, ~`
 
+
+# Deleting objects
+删除对象会删除数据库中的内容么？删除QuerySet时候确实会删除数据库里面内容
+
+When Django deletes an object, by default it emulates the behavior of the SQL constraint ON DELETE CASCADE – in other words, any objects which had foreign keys pointing at the object to be deleted will be deleted along with it. For example:
+```
+b = Blog.objects.get(pk=1)
+# This will delete the Blog and all of its Entry objects.
+b.delete()
+This cascade behavior is customizable via the on_delete argument to the ForeignKey.
+```
 
 
 ref:
