@@ -72,6 +72,12 @@ Blog.objects.filter(**kwargs)
 .all()
 .get()
 ```
+# F expressions
+```
+django.db.models.F
+```
+
+An F() object represents the value of a model field or annotated column. It makes it possible to refer to model field values and perform database operations using them without actually having to pull them out of the database into Python memory.
 
 # Complex lookups with Q object
 使用Q进行复杂的查询，例如select where 中的and or语句
@@ -86,6 +92,8 @@ Q 对象的好处就是允许你构建复杂的where语句，`sql中的AND, OR, 
 # Deleting objects
 删除对象会删除数据库中的内容么？删除QuerySet时候确实会删除数据库里面内容
 
+
+在遇到有外键的情况删除是怎么删的？
 When Django deletes an object, by default it emulates the behavior of the SQL constraint ON DELETE CASCADE – in other words, any objects which had foreign keys pointing at the object to be deleted will be deleted along with it. For example:
 ```
 b = Blog.objects.get(pk=1)
@@ -94,6 +102,7 @@ b.delete()
 This cascade behavior is customizable via the on_delete argument to the ForeignKey.
 ```
 
+# Copying model instances
 
 ref:
 
