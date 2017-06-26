@@ -73,6 +73,16 @@ Blog.objects.filter(**kwargs)
 .get()
 ```
 
+# Complex lookups with Q object
+使用Q进行复杂的查询，例如select where 中的and or语句
+
+## Q object
+
+`django.db.models.Q`
+
+Q 对象的好处就是允许你构建复杂的where语句，sql中的AND, OR, NOT 对应于Q查询中的&, |, ~
+
+
 
 ref:
 
