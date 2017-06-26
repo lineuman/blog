@@ -72,3 +72,8 @@ Blog.objects.filter(**kwargs)
 .all()
 .get()
 ```
+
+
+ref:
+
+[https://docs.djangoproject.com/en/1.11/topics/db/queries/](https://docs.djangoproject.com/en/1.11/topics/db/queries/)
