@@ -10,6 +10,11 @@ reference
 
 [https://blog.sentry.io/2017/06/22/debugging-python-errors](https://blog.sentry.io/2017/06/22/debugging-python-errors)
 
+## 我的看法
+
+1.依我看restful非常适合用来展示数据库中的内容
+2.微服务每个组件互相之间不依赖适合搞rest
+
 ## install
 
 `pip install djangorestframework`
