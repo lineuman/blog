@@ -3,7 +3,7 @@ categories: django
 tags: [django]
 ---
 
-# djangorestframework
+# django restf ramework
 reference
 
 [http://www.django-rest-framework.org/](http://www.django-rest-framework.org/)
@@ -31,4 +31,11 @@ INSTALLED_APPS中加入rest-framework
 
 REST_FRAMEWORK配置
 
+##　your_app中不同于普通django的文件
+```
+models.py
+views.py
+restapi.py
+serializer.py
+```
 
