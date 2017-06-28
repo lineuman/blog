@@ -25,5 +25,10 @@ python manage.py  createsuperuser
 python manage.py runserver
 ```
 
+## setting中的配置
+
+INSTALLED_APPS中加入rest-framework
+
+REST_FRAMEWORK配置
 
 
