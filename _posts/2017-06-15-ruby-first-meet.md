@@ -3,6 +3,7 @@ layout: post
 title:  "learn ruby"
 date:   2017-06-15 22:25:16 +0800
 categories: ruby
+tags: [ruby]
 ---
 **写在前面**
 
