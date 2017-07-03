@@ -1,9 +1,8 @@
 ---
-layout: post
 title: python excel
-tags:[excel]
----
 
+tags: [excel]
+---
 # 使用python处理excel文件`xls` `xlsx`
 三个模块
 ```
@@ -33,6 +32,7 @@ book = copy.copy(workbook)
 book.save('test.xls')
 ```
 ## xlwt
+
 ```
 # 工作薄和表
 import xlwt
