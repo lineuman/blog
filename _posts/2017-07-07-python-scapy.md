@@ -1,6 +1,8 @@
 ---
-tags:[python]
+title: python scapy 
+tags: [python]
 ---
+
 # scapy
 scapy 是python三方库，是发包，改包，分析包的工具，可用来进行fuzz测试或者学习网络协议
 [https://github.com/Larryxi/Scapy_zh-cn](https://github.com/Larryxi/Scapy_zh-cn)
@@ -21,3 +23,4 @@ help(IP)
 ```
 6. 如何从指定网卡发包？
 7. 如何把不同协议层连接起来？
+8. 如何发包从而实现tcp三次握手连接？
