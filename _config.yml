@@ -36,3 +36,4 @@ exclude:
   
 favicon: favicon.ico
 excerpt_separator:  '<!-- more -->'
+baseurl: /blog
