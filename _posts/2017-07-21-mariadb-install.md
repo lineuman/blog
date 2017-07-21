@@ -23,3 +23,13 @@ mysql -u root -p （交互式输入密码）
 
 
 ```
+
+## mysql备份
+
+`mysqldump`备份sql语句
+
+mysqldump -u root -p dbname tablename > barkup.sql
+
+## mysql还原
+
+mysql -u root -p dbname <barkup.sql
