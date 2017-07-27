@@ -25,6 +25,7 @@ examples
 
 注意：如下的expect语法中至少也得首字母是匹配的。
 
+修改密码
 ```
 #!/bin/bash
 passwd=rootPassword12!@
@@ -37,4 +38,18 @@ send "${passwd}\r"
 expect "passwd*"
 EOF
 ~   
+```
+
+生成证书
+```
+passwd=dddddd
+echo ${passwd}
+expect << EOF
+spawn openssl genrsa -aes256 -out cakey.pem 2048
+expect "Enter pass phrase for cakey.pem:"
+send "${passwd}\r"
+expect "Verifying - Enter pass*"
+send "${passwd}\r"
+EOF
+exec sleep 1 # 这一步很重要，不然生成的文件还是空的
 ```
