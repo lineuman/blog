@@ -34,6 +34,13 @@ tags: [linux]
 
 * \*代表所有可能值
 
+```
+systemctl restart crond.service
+
+/var/log/cron日志文件
+```
+
+
 ## example
 
 每隔一分钟执行一次脚本
