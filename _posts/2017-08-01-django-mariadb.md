@@ -1,8 +1,11 @@
 ---
 tags: [django]
 ---
+django + mariadb
 
-# 配置
+
+创建项目django-admin startproject your_project
+
 
 settings.py
 ```
@@ -60,3 +63,6 @@ MariaDB [cve]> select username, id from auth_user;
 +----------+----+
 1 row in set (0.00 sec)
 ```
+
+创建app python manage.py startapp youapp
+
