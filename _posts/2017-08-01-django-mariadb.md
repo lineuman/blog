@@ -66,3 +66,13 @@ MariaDB [cve]> select username, id from auth_user;
 
 创建app python manage.py startapp youapp
 
+
+
+## FAQ
+
+How do I connect to a MySQL database using a python program?
+[https://stackoverflow.com/questions/372885/how-do-i-connect-to-a-mysql-database-in-python](https://stackoverflow.com/questions/372885/how-do-i-connect-to-a-mysql-database-in-python)
+
+How to grant remote access permissions to mysql server for user?
+
+[https://stackoverflow.com/questions/6239131/how-to-grant-remote-access-permissions-to-mysql-server-for-user](https://stackoverflow.com/questions/6239131/how-to-grant-remote-access-permissions-to-mysql-server-for-user)
