@@ -79,3 +79,7 @@ How to grant remote access permissions to mysql server for user?
 [http://devdocs.magento.com/guides/v2.0/install-gde/prereq/mysql_remote.html]
 
 [https://stackoverflow.com/questions/6239131/how-to-grant-remote-access-permissions-to-mysql-server-for-user](https://stackoverflow.com/questions/6239131/how-to-grant-remote-access-permissions-to-mysql-server-for-user)
+
+ how to SHOW CREATE TABLE Syntax
+ 
+`SHOW CREATE TABLE tbl_name`
