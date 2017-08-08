@@ -71,8 +71,11 @@ MariaDB [cve]> select username, id from auth_user;
 ## FAQ
 
 How do I connect to a MySQL database using a python program?
+
 [https://stackoverflow.com/questions/372885/how-do-i-connect-to-a-mysql-database-in-python](https://stackoverflow.com/questions/372885/how-do-i-connect-to-a-mysql-database-in-python)
 
 How to grant remote access permissions to mysql server for user?
+
+[http://devdocs.magento.com/guides/v2.0/install-gde/prereq/mysql_remote.html]
 
 [https://stackoverflow.com/questions/6239131/how-to-grant-remote-access-permissions-to-mysql-server-for-user](https://stackoverflow.com/questions/6239131/how-to-grant-remote-access-permissions-to-mysql-server-for-user)
