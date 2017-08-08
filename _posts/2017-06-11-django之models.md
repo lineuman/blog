@@ -101,6 +101,8 @@ b = Blog.objects.get(pk=1)
 b.delete()
 This cascade behavior is customizable via the on_delete argument to the ForeignKey.
 ```
+## django app module register
+`admin.site.register(YourModule)`
 
 # Copying model instances
 
