@@ -33,3 +33,12 @@ mysqldump -u root -p dbname tablename > barkup.sql
 ## mysql还原
 
 mysql -u root -p dbname <barkup.sql
+
+## 基本usage
+```
+show databases;
+use databasename;
+show tables;
+desc tablename;
+show engines;
+```
