@@ -3,6 +3,9 @@ tags: [django]
 ---
 
 reference
+基本语法
+
+[https://docs.djangoproject.com/en/1.11/ref/templates/language/](https://docs.djangoproject.com/en/1.11/ref/templates/language/)
 
 [https://docs.djangoproject.com/en/1.11/topics/templates/](https://docs.djangoproject.com/en/1.11/topics/templates/)
 
