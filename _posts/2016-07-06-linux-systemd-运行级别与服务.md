@@ -32,3 +32,22 @@ service XXX status
 service XXX restart
 
 当然如果你能够找到这个脚本那么直接运行这个脚本也等价于操作这个服务。我推荐我自己去读一读init.d下面的这些服务脚本，对于理解linux系统会有一定的帮助
+
+# systemd
+下面的服务相关的说明都是基于systemd
+
+reference
+[https://access.redhat.com/articles/754933](https://access.redhat.com/articles/754933)
+
+在我看来，服务是对进程的管理，比如重启一个进程的本质是杀死这个进程，然后重新拉起进程。
+
+配置开机自启：
+`systemctl enable xxx.service`
+本质是增加了软连接
+Created symlink from /etc/systemd/system/multi-user.target.wants/crond.service to /usr/lib/systemd/system/crond.service.
+
+取消服务的开机自启：
+`systemctl disable xxx.service`
+
+其本质是移除了指向目标服务文件的软链接
+Removed symlink /etc/systemd/system/multi-user.target.wants/crond.service.
