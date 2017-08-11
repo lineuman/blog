@@ -58,4 +58,7 @@ OS 层面：CPU,MEM,DISK,NET等
 ## 压测工具
 mysqlslap为mysql自带压测工具
 
+tcpcopy可以实现流量回放的功能
+[https://github.com/session-replay-tools/tcpcopy](https://github.com/session-replay-tools/tcpcopy)
+
 
