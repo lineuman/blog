@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Django之概览"
+title:  "Django Basic"
 date:   2017-06-11 19:44:00 +0800
 categories: django
 tags: [django]
