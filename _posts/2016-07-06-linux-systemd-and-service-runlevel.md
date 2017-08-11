@@ -1,6 +1,5 @@
 ---
 layout: post
-title:  "linux运行级别与服务"
 date:   2016-07-06 20:18:00 +0800
 categories: linux
 tags: [linux]
