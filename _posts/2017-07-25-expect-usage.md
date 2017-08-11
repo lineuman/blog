@@ -53,3 +53,12 @@ send "${passwd}\r"
 EOF
 exec sleep 1 # 这一步很重要，不然生成的文件还是空的
 ```
+
+yum安装自动yes,yum安装可以不使用expect
+```
+How do I force yum to install without prompting the user, using bash?
+yum auto yes
+
+yum -y install somepackage
+```
+
