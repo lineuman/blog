@@ -62,3 +62,28 @@ yum auto yes
 yum -y install somepackage
 ```
 
+用来输入yes
+```
+
+function confirm()
+{
+    expect -c "
+        spawn ${*}
+        set timeout 2000
+        expect {
+            \"*no)?\"  {
+                send \"yes\r\"
+                exp_continue
+            }
+            \"*No*?\"  {
+                send \"Yes\r\"
+                exp_continue
+            }
+            \"*Cancel*?\"  {
+                send \"Cancel\r\"
+                exp_continue
+            }
+        }"
+}
+
+```
