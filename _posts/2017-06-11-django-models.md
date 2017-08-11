@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Django之modules"
+title:  "Django-modules"
 date:   2017-06-11 19:33:00 +0800
 categories: django
 tags: [django]
