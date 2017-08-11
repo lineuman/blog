@@ -42,3 +42,20 @@ show tables;
 desc tablename;
 show engines;
 ```
+
+## 数据库压力性能测试
+reference
+[http://dbaplus.cn/news-11-148-1.html](http://dbaplus.cn/news-11-148-1.html)
+
+可能影响整体系统性能的因素大致分为：
+
+DB 层面：数据库的一些配置参数
+
+OS 层面：CPU,MEM,DISK,NET等
+
+存储层面：存储类型
+
+## 压测工具
+mysqlslap为mysql自带压测工具
+
+
