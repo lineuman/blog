@@ -59,19 +59,23 @@ borders = xlwt.borders()
 ## win32com.client 
 wind32com.client是pywin32组件下的一个包，也可以用来处理excel，更加贴合excel，速度稍微慢一点
 ```
-    xlApp = win32com.client.Dispatch('Excel.Application')
-    # 此处不能有打开的xlsm文件
-    xlApp.visible = True
-    # 不弹出告警直接关闭
-    xlApp.DisplayAlerts = False
+xlApp = win32com.client.Dispatch('Excel.Application')
+# 此处不能有打开的xlsm文件
+xlApp.visible = True
+# 不弹出告警直接关闭
+xlApp.DisplayAlerts = False
 
-    inputBook = xlApp.Workbooks.Open(inputFile)
-    inputSheet = inputBook.Worksheets(3)
-    # 获取单元格的值
-    inputSheet.Cells(1, 1).Value
-    # 设置单元格的值
-    inputSheet.Cells(1, 1).Value = ”value"
-    # 设置单元格背景颜色
-    inputSheet.Cells(15, 6).Interior.ColorIndex = 6
+inputBook = xlApp.Workbooks.Open(inputFile)
+inputSheet = inputBook.Worksheets(3)
+# 获取单元格的值
+inputSheet.Cells(1, 1).Value
+# 设置单元格的值
+inputSheet.Cells(1, 1).Value = ”value"
+# 设置单元格背景颜色
+inputSheet.Cells(15, 6).Interior.ColorIndex = 6
+# 关闭这个工作薄
+inputBook.Close(SaveChanges=True)
+# 关闭excel程序
+xlApp.Application.quit()
 ```
 
