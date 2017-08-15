@@ -1,5 +1,5 @@
 ---
-tags: [tcpdump]
+tags: [command]
 ---
 
 最常见的使用场景是tcpdump抓包然后使用wireshark进行分析
