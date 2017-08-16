@@ -2,6 +2,9 @@
 tags: [linux]
 ---
 
+[https://www.kernel.org/doc/](https://www.kernel.org/)是学习内核的不二之选
+
+[ip-sysctl相关](https://www.kernel.org/doc/Documentation/networking/ip-sysctl.txt)
 
 Disable tcp timestamps on your linux system（禁用tcp时间戳）
 
