@@ -1,6 +1,7 @@
 ---
 tags: [command]
 ---
+# tcpdump
 
 最常见的使用场景是tcpdump抓包然后使用wireshark进行分析
 
@@ -54,3 +55,24 @@ or
 -w —— 直接将包写入文件中（write）
 -T —— 将监听到的包直接解释为指定的类型的报文，仅支持有限格式
 ```
+# nmap
+
+reference:
+[https://nmap.org/book/man.html](https://nmap.org/book/man.html)
+
+example
+
+```
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 6.6.1 (protocol 2.0)
+|_ssh-hostkey: ERROR: Script execution failed (use -d to debug)
+```
+
+The state is either open, filtered, closed, or unfiltered. 
+Open means that an application on the target machine is listening for connections/packets on that port. 
+
+Filtered means that a firewall, filter, or other network obstacle is blocking the port so that Nmap cannot tell whether it is open or closed. 
+
+Closed ports have no application listening on them, though they could open up at any time. 
+
+Ports are classified as unfiltered when they are responsive to Nmap's probes, but Nmap cannot determine whether they are open or closed. Nmap reports the state combinations open|filtered and closed|filtered when it cannot determine which of the two states describe a port(例如有时候你收到了一个回复，但是你不知道这个回复是端口回复的，还是防火墙回复的)
