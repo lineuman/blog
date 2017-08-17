@@ -4,11 +4,13 @@ title: python excel
 tags: [excel]
 ---
 # 使用python处理excel文件`xls` `xlsx`
-三个模块
+
 ```
 xlrd
 xlwt
 xlutils
+pywin32
+xlsxwriter
 ```
 
 ## xlrd
@@ -57,6 +59,8 @@ borders = xlwt.borders()
 ```
 
 ## win32com.client 
+[http://pythonexcels.com/python-excel-mini-cookbook/](http://pythonexcels.com/python-excel-mini-cookbook/)
+
 wind32com.client是pywin32组件下的一个包，也可以用来处理excel，更加贴合excel，速度稍微慢一点
 ```
 xlApp = win32com.client.Dispatch('Excel.Application')
@@ -79,3 +83,9 @@ inputBook.Close(SaveChanges=True)
 xlApp.Application.quit()
 ```
 
+## xlsxwriter
+[http://xlsxwriter.readthedocs.io/index.html](http://xlsxwriter.readthedocs.io/index.html)
+
+Disadvantages:It cannot read or modify existing Excel XLSX files.
+
+## openpyxl
