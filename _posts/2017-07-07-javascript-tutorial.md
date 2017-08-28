@@ -35,3 +35,20 @@ Objects
 
 ### ajax
 
+
+## instll node
+`brew install node`
+
+npm是node的包管理器
+
+## 浏览器相关
+```
+alert()
+confirm()
+prompt()
+```
+## browser API
+DOM
+
+`The code syntax looks different, but the concepts are still largely the same.`
+`thinking like a programmer`
