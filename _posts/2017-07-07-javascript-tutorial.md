@@ -30,8 +30,21 @@ Arrays
 Objects
 
 ### conditions
+```
+if(){
+}
+else if(){
+}
+else{
+}
+```
 
 ### loop
+```
+for (let i = 0;i<10;i++){
+  console.log(i);
+  }
+```
 
 ### ajax
 
@@ -47,6 +60,10 @@ alert()
 confirm()
 prompt()
 ```
+## document
+css选择器
+document.querySelectorAll()
+
 ## browser API
 DOM
 
