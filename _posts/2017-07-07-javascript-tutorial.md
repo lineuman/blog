@@ -105,3 +105,9 @@ DOM
 
 `The code syntax looks different, but the concepts are still largely the same.`
 `thinking like a programmer`
+
+## Event
+As mentioned above, events are not really part of the core JavaScript — they are defined in browser Web APIs.
+
+Event Capturing
+Event bubbling
