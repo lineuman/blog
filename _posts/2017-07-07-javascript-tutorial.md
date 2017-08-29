@@ -37,6 +37,7 @@ else if(){
 }
 else{
 }
+
 ```
 
 ### loop
@@ -44,8 +45,35 @@ else{
 for (let i = 0;i<10;i++){
   console.log(i);
   }
+
+while (condition){
+// run code
+}
+
+do {
+//run code
+}
+while (condition)
+
+
+break
+continue
 ```
 
+
+### function
+```
+function myFunction(){
+// do sth
+}
+
+
+var name = function(){
+                  // run code
+                  }
+                  
+
+```
 ### ajax
 
 
@@ -61,8 +89,16 @@ confirm()
 prompt()
 ```
 ## document
+```
 css选择器
 document.querySelectorAll()
+
+document.createElement()
+.setAttribute()
+.addEventListener()
+.removeEventListener()
+
+```
 
 ## browser API
 DOM
