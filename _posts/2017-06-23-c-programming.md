@@ -166,3 +166,32 @@ The value of ptr is 0
 ### Decrementing a Pointer
 
 ### Pointer Comparisons
+
+
+
+sizeof
+
+## glibc一些函数
+
+[https://www.tutorialspoint.com/c_standard_library/stdio_h.htm](https://www.tutorialspoint.com/c_standard_library/stdio_h.htm)
+
+### stdio.h
+
+```
+printf()
+scanf()
+sprintf()
+sprintf_s()
+snprintf()
+snprintf_s()
+```
+
+### string.h
+```
+strcpy()
+strlen()
+
+strncpy()
+strncpy_s()
+memset()
+```
