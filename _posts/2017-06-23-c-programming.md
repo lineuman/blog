@@ -174,10 +174,17 @@ sizeof
 ## glibc一些函数
 
 [https://www.tutorialspoint.com/c_standard_library/stdio_h.htm](https://www.tutorialspoint.com/c_standard_library/stdio_h.htm)
+### stdlib.h
+```
+void *malloc(size_t size); //使用malloc分配的内存是没有初始化的
+void *calloc(size_t nitems, size_t size)
+ 
+```
 
 ### stdio.h
 
 ```
+int puts(const char *str)
 printf()
 scanf()
 sprintf()
