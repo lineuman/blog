@@ -1,5 +1,5 @@
 ---
-tags: [apscheduler]
+tags: [python]
 ---
 
 # python apscheduler
