@@ -1,5 +1,5 @@
 ---
-tags: [command]
+tags: [linux]
 ---
 # tcpdump
 
