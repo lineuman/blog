@@ -24,3 +24,16 @@ help(IP)
 6. 如何从指定网卡发包？
 7. 如何把不同协议层连接起来？
 8. 如何发包从而实现tcp三次握手连接？
+9. 如何分析抓到的包？
+
+[https://thepacketgeek.com/importing-packets-from-trace-files/](https://thepacketgeek.com/importing-packets-from-trace-files/)
+
+```
+localhost:~ packetgeek$ scapy
+Welcome to Scapy (2.2.0)
+>>> packets = rdpcap('IBGP_adjacency.cap')
+>>> packets
+<IBGP_adjacency.cap: TCP:17 UDP:0 ICMP:0 Other:0>
+
+```
+10. 如何抓包？
