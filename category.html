@@ -4,7 +4,7 @@ title: Categories
 ---
 
 {% comment %}
-这里是注释，我觉得你应该引入你需要的css就可以了，而不需要把整个bootstrap都引入进来。
+这里是注释，我觉得你应该引入你需要的css就可以了，而不需要把整个bootstrap都引入进来。我只需要把我需要的badge类移植过来就可以了。
 {% endcomment %}
 
 <style>
@@ -33,7 +33,6 @@ a.badge:focus {
   <div class="">
     {% for tag in site.categories %}
     <a class="badge" href="#{{ tag[0] | slugify }}" class="">{{ tag[0] }}</a>
-    <code>{{ tag[0] }}</code>
     {% endfor %}
   </div>
   <hr/>
