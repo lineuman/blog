@@ -35,9 +35,9 @@ title: Tags
     <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
     <ul class="">
       {% for post in tag[1] %}
-        <a class="" href="{{ site.baseurl }}{{ post.url }}">
-      <li>{{ post.title }}<small class="">{{ post.date | date_to_string }}</small></li>
-      </a>
+      <li>
+        <a class="" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><span><small>&nbsp;{{ post.date | date_to_string }}</small></span>
+      </li>
       {% endfor %}
     </ul>
     {% endfor %}
