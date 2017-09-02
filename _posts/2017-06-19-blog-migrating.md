@@ -13,11 +13,13 @@ categories: thoughts
 6月份终于下定决心，把博客一点一点迁移到gitpages上。
 我记得我一直想要一个按类别划分的功能，但是jekyll默认模板minima并不支持按照标签显示，
 经过几个小时的努力，终于实现了这个功能，接下来就会在jekyll上写博客了。
-未来还需要一个按照月份进行归档划分的页面，记录在此，等待实现。
+未来还需要一个按照月份进行归档划分的页面，记录在此，等待实现。（感觉我并不会去实现这个功能，至少现在我不想）
 
 ## 简单记录下所用到的一些组件
 
 * jekyll的minima模板
+
+[https://github.com/jekyll/minima](https://github.com/jekyll/minima)
 
 jekyll是ruby实现的一个模板工具
 * gitpages
@@ -36,3 +38,6 @@ jekyll是ruby实现的一个模板工具
 ## 后记
 页面还是比较丑的，可以尝试使用css进行优化。
 
+bootstrap不仅是一个框架，它还是一个活生生的例子，我可以去借鉴它里面的每一个模块，大部分时候我们不需要bootstrap全部的功能，那么只要移植需要使用的类样式就可以了。
+
+2017-09-02 我使用bootstrap优化了博客的tag页面和category页面，优化了文章列表的显示。
