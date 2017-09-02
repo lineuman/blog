@@ -39,7 +39,7 @@ title: Categories
       {% for post in tag[1] %}
         <a class="" href="{{ site.baseurl }}{{ post.url }}">
       <li>{{ post.title }}</li>
-      </a><small>{{ post.date | date_to_string }}</small>
+      </a>" << "<span>{{ post.date | date_to_string }}</span>
       {% endfor %}
     </ul>
     {% endfor %}
