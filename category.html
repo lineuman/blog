@@ -3,11 +3,15 @@ layout: default
 title: Categories
 ---
 
-{% include bootstrap.html %}
+{% comment %}
+这里是注释，我觉得你应该引入你需要的css就可以了，而不需要把整个bootstrap都引入进来。
+{% endcomment %}
+
 <div class="">
   <div class="">
     {% for tag in site.categories %}
     <a href="#{{ tag[0] | slugify }}" class="">{{ tag[0] }}</a>
+    <code>{{ tag[0] }}</code>
     {% endfor %}
   </div>
   <hr/>
