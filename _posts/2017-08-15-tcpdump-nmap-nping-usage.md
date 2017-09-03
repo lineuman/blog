@@ -76,3 +76,8 @@ Filtered means that a firewall, filter, or other network obstacle is blocking th
 Closed ports have no application listening on them, though they could open up at any time. 
 
 Ports are classified as unfiltered when they are responsive to Nmap's probes, but Nmap cannot determine whether they are open or closed. Nmap reports the state combinations open|filtered and closed|filtered when it cannot determine which of the two states describe a port(例如有时候你收到了一个回复，但是你不知道这个回复是端口回复的，还是防火墙回复的)
+
+# nping
+arp replay 通常所说的arp投毒，也就是你会以为某个ip的mac地址在另一个位置。
+
+sudo nping --arp --arp-type ARP-reply 192.168.2.152 --arp-sender-ip 192.168.2.1 --arp-target-ip 192.168.2.152 -c 100
