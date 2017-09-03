@@ -5,15 +5,23 @@ tags: [network]
 
 学习网络协议的工具`tcpdump` `nping` `nmap` `scapy`,通过这些工具可以抓取报文，或者构造报文
 
+## 基础概念
+mac，src, dst
+
+ip，src, dst
+
+port， src, dst
+
 ## arp
 arp请求
 
 arp回复
 ## 以太网报文
 
-## ip报文
+## ipv4
 ip头部一般占20个字节
 
+## ipv6
 
 ## icmp
 [https://www.rfc-editor.org/rfc/rfc792.txt](https://www.rfc-editor.org/rfc/rfc792.txt)
