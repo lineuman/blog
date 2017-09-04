@@ -1,6 +1,5 @@
 ---
 layout: post
-title:  "ddos常见攻击报文"
 date:   2017-03-01 21:54:00 +0800
 categories: security
 tags: [security]
