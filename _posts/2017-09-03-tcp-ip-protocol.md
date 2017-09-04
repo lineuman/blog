@@ -5,6 +5,8 @@ tags: [network]
 
 学习网络协议的工具`tcpdump` `nping` `nmap` `scapy`,通过这些工具可以抓取报文，或者构造报文
 
+[https://securitylab.disi.unitn.it/lib/exe/fetch.php?media=teaching:netsec:2016:dos_report_-_group_5.pdf](https://securitylab.disi.unitn.it/lib/exe/fetch.php?media=teaching:netsec:2016:dos_report_-_group_5.pdf)
+
 ## 基础概念
 mac，src, dst
 
@@ -66,4 +68,22 @@ udp头部一般占据8个字节
 
 
 
+# 工具集合
 
+
+slowhttptest
+
+wrk
+
+sqlmap
+
+
+nmap
+
+[nping](https://nmap.org/nping/)
+
+hping
+
+hping3
+
+mz
