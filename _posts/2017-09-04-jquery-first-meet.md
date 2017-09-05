@@ -16,3 +16,22 @@ class选择器
 
 .attr()
 ```
+## jquery ajax
+
+$.ajax()
+
+$.get()
+
+$.post()
+
+text
+
+html
+
+script
+
+json
+
+jsonp
+
+xml
