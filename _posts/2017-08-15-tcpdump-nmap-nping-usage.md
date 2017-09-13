@@ -81,3 +81,18 @@ Ports are classified as unfiltered when they are responsive to Nmap's probes, bu
 arp replay 通常所说的arp投毒，也就是你会以为某个ip的mac地址在另一个位置。
 
 sudo nping --arp --arp-type ARP-reply 192.168.2.152 --arp-sender-ip 192.168.2.1 --arp-target-ip 192.168.2.152 -c 100
+
+# hping3
+
+`hping3 -c 10000 -d 120 -S -w 64 -p 21 --flood --rand-source www.hping3testsite.com`
+
+# iperf3
+[https://github.com/esnet/iperf](https://github.com/esnet/iperf)
+```
+unzip iperf.zip
+./configure
+make
+make install
+```
+iperf是用来测量网络宽带的一个工具
+
