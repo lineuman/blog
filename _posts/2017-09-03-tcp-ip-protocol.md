@@ -105,6 +105,11 @@ udp头部一般占据8个字节
 
 
 ```
+
+
+# qos
+# iptables and tc
+
 # 应用协议集合
 
 ## http
@@ -131,6 +136,10 @@ TRACE
 状态码
 
 ## dns
+
+## dhcp
+
+## snmp
 
 ## ntp
 ntp反射放大攻击
