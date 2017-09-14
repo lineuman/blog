@@ -53,6 +53,8 @@ arp投毒
 
 `nping –arp –arp-type ARP-reply 192.168.2.152 –arp-sender-ip 192.168.2.1 –arp-target-ip 192.168.2.152 -c 100`
 
+Antiarp 
+`ping --icmp --icmp-type time --source-ip 不存在的源ip 目标ip -c 1000`
 
 ## ipv4
 ip头部一般占20个字节
