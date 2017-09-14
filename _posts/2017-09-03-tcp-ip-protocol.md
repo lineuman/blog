@@ -154,6 +154,7 @@ vnc 客户端和服务端握手流程
 
 # 工具集合
 
+我所关心关键词：发包速度，发包个数，发包类型
 
 slowhttptest
 
@@ -165,6 +166,10 @@ sqlmap
 nmap
 
 [nping](https://nmap.org/nping/)
+
+速度 --rate
+
+数量 --count
 
 hping
 
