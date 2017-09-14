@@ -101,11 +101,19 @@ udp头部一般占据8个字节
 ## dns
 
 ## ntp
+ntp反射放大攻击
+
+ntp本身的拒绝服务漏洞
 
 ## ssh
 sshd port 22
 
 [https://www.exploit-db.com/exploits/40888/](https://www.exploit-db.com/exploits/40888/)
+
+## vnc
+
+vnc 握手流程
+
 
 
 # 工具集合
