@@ -106,6 +106,9 @@ udp头部一般占据8个字节
 
 ```
 
+# vlan
+
+交换机基于端口的vlan划分，为了隔离广播
 
 # qos
 # iptables and tc
