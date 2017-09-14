@@ -51,6 +51,8 @@ arp缓存表
 
 arp投毒
 
+局域网内arp欺骗
+
 `nping –arp –arp-type ARP-reply 192.168.2.152 –arp-sender-ip 192.168.2.1 –arp-target-ip 192.168.2.152 -c 100`
 
 Antiarp 
@@ -59,9 +61,9 @@ Antiarp
 
 antiarp的原理就是发送源ip不在arp表中的icmp报文，迫使你发送arp request，从而达到消耗你的目的
 
-`ping --icmp --icmp-type time --source-ip 不存在的源ip 目标ip -c 1000`
+`nping --icmp --icmp-type time --source-ip 不存在的源ip 目标ip -c 1000`
 
-` hping3 -1 --fast   目标ip --rand-source`
+`hping3 -1 --fast   目标ip --rand-source`
 
 ## ipv4
 ip头部一般占20个字节
