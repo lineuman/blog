@@ -45,3 +45,12 @@ ovs-vsctl add-br ply0
 
 ovs-vsctl list interface tap1
 ```
+
+## Qos
+
+设置
+
+```
+ovs-vsctl set interface qvm0 ingress_policing_burst=100
+ovs-vsctl set interface qvm0 ingress_policing_rate=1000
+```
