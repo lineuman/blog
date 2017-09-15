@@ -106,9 +106,24 @@ udp头部一般占据8个字节
 
 ```
 
+## timestamp
+
+### tcp timestamp response
+
+sysctl -w net.ipv4.tcp_timestamps=0
+
+### ICMP timestamp response
+
+ipchains -A input -p icmp --icmp-type timestamp-request -j DROP
+ 
+
+
 # vlan
 
 交换机基于端口的vlan划分，为了隔离广播
+
+
+
 
 # qos
 # iptables and tc
