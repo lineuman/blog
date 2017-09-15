@@ -128,6 +128,32 @@ ipchains -A input -p icmp --icmp-type timestamp-request -j DROP
 # qos
 # iptables and tc
 
+表
+
+链
+
+规则
+
+目标项
+
+ACCEPT
+
+DROP
+
+REJECT
+
+RETURN
+
+SNAT
+
+DNAT
+example
+
+```
+iptables -L INPUT --line-numbers
+```
+
+
 # 应用协议集合
 
 ## http
