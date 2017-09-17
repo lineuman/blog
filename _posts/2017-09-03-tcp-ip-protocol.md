@@ -128,13 +128,25 @@ ipchains -A input -p icmp --icmp-type timestamp-request -j DROP
 # qos
 # iptables and tc
 
-表
+表: filter nat mangle raw
+
+raw>mangle>nat>filter
 
 链
+
+
 
 规则
 
 目标项
+
+ACCEPT, DROP, REJECT,RETURN, SNAT,DNAT
+
+状态机制
+
+NEW，ESTABLISHED，RELATED,INVALID
+
+允许已有连接的数据包通过，但是不允许向系统发起新的连接
 
 ACCEPT
 
@@ -150,7 +162,11 @@ DNAT
 example
 
 ```
+iptables -t nat -L
+# 添加规则
 iptables -L INPUT --line-numbers
+iptables -A  INPUT -p icmp --icmp-type echo-request -j ACCEPT
+
 ```
 
 
