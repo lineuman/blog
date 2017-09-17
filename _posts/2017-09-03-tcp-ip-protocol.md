@@ -140,14 +140,6 @@ raw>mangle>nat>filter
 
 目标项
 
-ACCEPT, DROP, REJECT,RETURN, SNAT,DNAT
-
-状态机制
-
-NEW，ESTABLISHED，RELATED,INVALID
-
-允许已有连接的数据包通过，但是不允许向系统发起新的连接
-
 ACCEPT
 
 DROP
@@ -159,14 +151,26 @@ RETURN
 SNAT
 
 DNAT
+
+状态机制
+
+NEW，ESTABLISHED，RELATED,INVALID
+
+
 example
 
 ```
+# 查看配置
+ cat /etc/sysconfig/iptables
+# 显示nat表规则
 iptables -t nat -L
 # 添加规则
 iptables -L INPUT --line-numbers
+# 接收echo-request类型的icmp报文
 iptables -A  INPUT -p icmp --icmp-type echo-request -j ACCEPT
-
+# 允许已有连接的数据包通过，但是不允许向系统发起新的连接
+# 使用mangle表修改包的ttl
+iptables -t mangle -A POSTROUTING -j TTL --ttl-inc 3
 ```
 
 
