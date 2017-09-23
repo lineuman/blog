@@ -5,6 +5,8 @@ python标准库文档真是令人印象深刻,其中第八章节是各种算法�
 
 [https://docs.python.org/2/library/index.html](https://docs.python.org/2/library/index.html)
 
+python原生的list并非线程安全的，我想它之所以这样是处于性能的设计。
+
 8.3 collectios
 
 双端队列
