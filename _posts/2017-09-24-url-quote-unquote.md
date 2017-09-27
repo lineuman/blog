@@ -19,4 +19,9 @@ urllib.unquote()
 urllib.urlencode()
 ```
 
+copy as curl cmd
+
+curlconverter这个网站可以把curl命令转化为python requests
+
+[https://curl.trillworks.com/#python](https://curl.trillworks.com/#python)
 
