@@ -178,6 +178,8 @@ iptables -t mangle -A POSTROUTING -j TTL --ttl-inc 3
 
 ## http
 
+shellshock是在设置环境变量时会执行命令
+
 chrome浏览器的copy as curl command非常有用
 
 http慢链接攻击
