@@ -9,6 +9,12 @@ tags: [security]
 本文主要总结各种编程语言中的危险函数，使用这些函数可能导致命令注入，通过脚本搜索源码中这些字符进行手工排查可以尽量集中发现注入点。
 
 ## python
+### 解压缩漏洞
+[http://bobao.360.cn/learning/detail/4503.html](http://bobao.360.cn/learning/detail/4503.html)
+
+不正确的使用zipfile解压文件时候可能会导致文件覆盖
+
+### 命令注入
 ```
 # 内建函数
 exec
