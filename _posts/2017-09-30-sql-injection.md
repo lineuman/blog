@@ -6,6 +6,8 @@ tags: [sql]
 
 ## mysql数据库SQL注入
 
+[http://mysql-python.sourceforge.net/MySQLdb.html](http://mysql-python.sourceforge.net/MySQLdb.html)
+
 例如mysql使用%value%来实现模糊匹配，那么value便是一个危险的值。我可以构造value将两边的分号闭合，中间插入额外的执行语句。
 ```
 value = cve%" or  cve_id like "1
@@ -26,4 +28,6 @@ Do:
 
 sql = "INSERT INTO TABLE_A (COL_A,COL_B) VALUES (%s, %s)"
 cursor.execute(sql, (val1, val2))
+法三：
+c.executemany
 ```
