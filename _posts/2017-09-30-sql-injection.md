@@ -10,3 +10,20 @@ tags: [sql]
 ```
 value = cve%" or  cve_id like "1
 ```
+
+
+## 防范
+```
+法一：
+MySQLdb.escape_string
+
+法二：
+Don't do:
+
+sql = "INSERT INTO TABLE_A (COL_A,COL_B) VALUES (%s, %s)" % (val1, val2)
+cursor.execute(sql)
+Do:
+
+sql = "INSERT INTO TABLE_A (COL_A,COL_B) VALUES (%s, %s)"
+cursor.execute(sql, (val1, val2))
+```
