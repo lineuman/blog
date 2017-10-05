@@ -1,6 +1,11 @@
 ---
 tags: [php]
 ---
+此文写于20171005，我对php的入门理解，可能有偏差，后续还要调整，优化记忆和理解。
+
+reference
+[http://php.net/manual/en/langref.php](http://php.net/manual/en/langref.php)
+
 
 入门例子：
 
@@ -25,6 +30,22 @@ echo "<html>";
 echo "<h1>this is for test</h1>";
 echo "</html>";
 ?>
+```
+3.要想快速入门就是写实际可以运行的代码
+基本要掌握这几个字
+```
+$作为变量的代表
+php中有两种输出的方法
+echo
+print
+
+```
+4.最重要的就是交互式解释器
+我认为使用交互式解释器是学习一门编程语言最接地气的方法了
+
+```
+php -a可以开启交互式解释器
+-a             Run as interactive shell
 ```
 
 基本语法(果然天下的语言都是相似的)
@@ -84,3 +105,6 @@ for ($i = 1; $i <= 10; $i++) {
 }
 ?>
 ```
+
+## Predefined Variables
+这里相当于是php的特色吧，一般的语言怎么才不会有这么多的内置变量呢，主要是这些变量为web开发提供便捷，也就是说php是专门为web而搞的。
