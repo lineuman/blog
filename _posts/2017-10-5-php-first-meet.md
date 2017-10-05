@@ -47,6 +47,13 @@ print
 php -a可以开启交互式解释器
 -a             Run as interactive shell
 ```
+5.查看类型
+```
+用来查看变量类型
+gettype()
+和
+var_dump()
+```
 
 基本语法(果然天下的语言都是相似的)
 php代码写在标签之内
