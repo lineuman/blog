@@ -115,3 +115,21 @@ for ($i = 1; $i <= 10; $i++) {
 
 ## Predefined Variables
 这里相当于是php的特色吧，一般的语言怎么才不会有这么多的内置变量呢，主要是这些变量为web开发提供便捷，也就是说php是专门为web而搞的。
+```
+These superglobal variables are
+$GLOBALS
+$_SERVER
+$_GET
+$_POST
+$_FILE
+$_COOKIE
+$_SESSION
+$_REQUEST
+$_ENV
+
+```
+```
+<?php
+var_dump($_SERVER)
+?>
+```
