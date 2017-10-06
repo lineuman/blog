@@ -1,6 +1,5 @@
 ---
 layout: post
-title:  "sphinx帮助我通过rst生成静态html"
 date:   2016-12-23 22:51:00 +0800
 categories: python
 tags: [python]
