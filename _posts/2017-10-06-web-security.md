@@ -54,11 +54,19 @@ curl -H "Origin:http://www.example.com" --url http://example.com
 header("Access-Control-Allow-Origin:*");
 ?>
 ```
+## Location
 
+大部分标准都是存在的，只不过是你没有去关注，没有去阅读罢了
 
+[https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html)
+```
+An example is:
 
-
-
+       Location: http://www.w3.org/pub/WWW/People.html
+<?php
+Location: http://www.w3.org/pub/WWW/People.html
+?>
+```
 
 
 
