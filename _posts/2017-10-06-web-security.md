@@ -37,3 +37,35 @@ Given the URL and querystring: http://example.com/?color=red&color=blue
 |Perl CGI / Apache|	First occurrence only|	color=red|
 |mod_wsgi (Python) / Apache|	First occurrence only|	color=red|
 |Python / Zope|	All occurrences in List data type|	color=['red','blue']|
+
+
+## X-Frame-Options
+X-Frame-Options是响应报文头，用来指示浏览器是否允许在<frame> <iframe>中渲染页面，正确的使用该报文头可以防治点击劫持（Clickjacking)
+
+## Access-Control-Allow-Origin
+浏览器实现的同源策略是一种安全保护机制，但是它也限制正常的跨域访问。w3制定了一个新的标准用来解决跨域访问问题。
+
+例如
+```
+# 客户端
+curl -H "Origin:http://www.example.com" --url http://example.com
+# 服务端
+<?php
+header("Access-Control-Allow-Origin:*");
+?>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
