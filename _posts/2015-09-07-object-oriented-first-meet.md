@@ -1,8 +1,6 @@
 ---
 layout: post
-title:  "object-oriented-firet-meet"
 date:   2015-09-07 23:14:00 +0800
-categories: object-oriented
 tags: [object-oriented]
 ---
 ## 面向对象编程
