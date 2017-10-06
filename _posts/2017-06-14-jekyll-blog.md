@@ -1,8 +1,6 @@
 ---
-layout: post
-title:  "use jekyll to make blog"
+tags: [ruby]
 date:   2017-06-14 23:25:16 +0800
-categories: jekyll update
 ---
 
 # jekyll+gitpages搭建博客
