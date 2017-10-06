@@ -1,6 +1,5 @@
 ---
 layout: post
-title:  " python string"
 date:   2017-05-26 23:04:00 +0800
 categories: python
 ---
