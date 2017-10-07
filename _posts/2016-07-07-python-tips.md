@@ -1,6 +1,5 @@
 ---
 layout: post
-title:  "python tips"
 date:   2016-07-07 22:40:00 +0800
 categories: python
 tags: [python]
