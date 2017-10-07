@@ -1,6 +1,5 @@
 ---
 layout: post
-title:  "excel使用"
 date:   2016-05-13 21:10:00 +0800
 categories: excel
 tags: [excel]
