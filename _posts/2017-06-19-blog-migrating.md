@@ -1,6 +1,5 @@
 ---
 layout: post
-title:  "blog migrating"
 date:   2017-06-19 20:55:16 +0800
 categories: thoughts
 ---
@@ -40,4 +39,8 @@ jekyll是ruby实现的一个模板工具
 
 bootstrap不仅是一个框架，它还是一个活生生的例子，我可以去借鉴它里面的每一个模块，大部分时候我们不需要bootstrap全部的功能，那么只要移植需要使用的类样式就可以了。
 
-2017-09-02 我使用bootstrap优化了博客的tag页面和category页面，优化了文章列表的显示。
+## changlog
+2017-06-19 博客迁移到github
+2017-09-02 使用bootstrap优化了博客的tag页面和category页面，优化了文章列表的显示。
+2017-10-06 为博客添加了百度统计
+
