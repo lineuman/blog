@@ -14,7 +14,7 @@ tags: [security]
 
 不正确的使用zipfile解压文件时候可能会导致文件覆盖
 
-### 命令注入
+### 系统命令注入
 ```
 # 内建函数
 exec
@@ -22,10 +22,10 @@ eval
 execfile
 
 # os系列
-'os.system'
-'os.popen'
-'os.spaw'
-'os.exec'
+os.system
+os.popen
+os.spaw
+os.exec
 
 # commands系列
 commands.getoutput
@@ -43,16 +43,15 @@ os.rmdir
 os.removedirs
 shutil.rmtree
 
-'utils.execute'
-'utils.execute_with_timeout']
-‘write'
-'writelines'
-'compile'
-'input'
-'os.open'
 
-'pickle'
-'yaml('
+write
+writelines
+compile
+input
+os.open
+os.fdopen
+pickle
+yaml
 ```
 
 
@@ -61,6 +60,11 @@ shutil.rmtree
 ## java
 
 ## php
+```
+system
 
+var_dump
+
+```
 ## go
 
