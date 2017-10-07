@@ -1,6 +1,5 @@
 ---
 layout: post
-title:  "thanks the person who encouraged you"
 date:   2015-07-04 22:35:00 +0800
 categories: thoughts
 tags: [thoughts]
