@@ -1,6 +1,5 @@
 ---
 layout: post
-title:  "python metaclass"
 date:   2017-06-15 10:25:16 +0800
 categories: python
 ---
