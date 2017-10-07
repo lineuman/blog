@@ -1,6 +1,5 @@
 ---
 layout: post
-title:  "learn ruby"
 date:   2017-06-15 22:25:16 +0800
 categories: ruby
 tags: [ruby]
@@ -15,6 +14,9 @@ tags: [ruby]
 原因有三：
 1. 因为jekyll是用ruby写的，我想去了解它背后的神秘，所以学习ruby是有必要的。
 2. ruby on rails(Rails 是使用 Ruby 语言编写的 Web 应用开发框架)
+
+redmine项目管理网站也是搭建在ROR之上
+
 3. 拓宽下自己视野与知识
 
 ### 学习ruby有哪些资源？
@@ -27,6 +29,8 @@ tags: [ruby]
 1.install
 
 2.使用它
+
+3.在irb中练习它
 
 ### 相关概念
 
