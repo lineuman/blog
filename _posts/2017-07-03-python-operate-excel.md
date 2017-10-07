@@ -1,6 +1,4 @@
 ---
-title: python excel
-
 tags: [excel]
 ---
 # 使用python处理excel文件`xls` `xlsx`
