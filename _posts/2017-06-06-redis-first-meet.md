@@ -1,6 +1,5 @@
 ---
 layout: post
-title:  "redis入门"
 date:   2017-06-06 20:15:00 +0800
 categories: nosql
 ---
