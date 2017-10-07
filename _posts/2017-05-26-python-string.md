@@ -20,7 +20,7 @@ Python 的string模块提供了各种的字符
   printable = digits + letters + punctuation + whitespace
 ```
 
-我可以利用这一点来生成随机密码
+我可以利用这一点来生成随机密码(不可以在生产环境使用，因为不是安全的随机数)
 import random
 import string
 chars = list(string.printable)
