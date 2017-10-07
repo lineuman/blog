@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   2016-05-23 22:29:00 +0800
+date:   2016-05-23 22:29:00
 categories: django
 tags: [django]
 ---
