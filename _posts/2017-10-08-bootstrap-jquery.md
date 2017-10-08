@@ -64,6 +64,20 @@ server/
 
 答：隐藏状态的modal,只有特定事件发生的时候才显示
 
+2.怎么触发modal显示呢？
+法一
+```
+<a href="#" data-toggle="modal" data-target="#myModal">
+  点我修改	
+</a>
+```
+法二
+```
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+```
+
 ### carousel旋转木马
 
 遇到的问题
