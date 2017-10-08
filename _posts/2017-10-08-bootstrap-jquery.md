@@ -83,6 +83,11 @@ $('#identifier').modal(options)
 </button>
 ```
 
+3.怎么通过modal传送数据？无论通过何种方式，本质上都是要与服务端进行通信的的。
+
+modal + ajax可以实现数据的传送
+
+
 ### carousel旋转木马
 
 遇到的问题
