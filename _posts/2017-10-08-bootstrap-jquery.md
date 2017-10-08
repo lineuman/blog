@@ -65,6 +65,11 @@ server/
 答：隐藏状态的modal,只有特定事件发生的时候才显示
 
 2.怎么触发modal显示呢？
+
+通过 data 属性：在控制器元素（比如按钮或者链接）上设置属性 data-toggle="modal"，同时设置 data-target="#identifier" 或 href="#identifier" 来指定要切换的特定的模态框（带有 id="identifier"）。
+通过 JavaScript：使用这种技术，您可以通过简单的一行 JavaScript 来调用带有 id="identifier" 的模态框：
+$('#identifier').modal(options)
+
 法一
 ```
 <a href="#" data-toggle="modal" data-target="#myModal">
