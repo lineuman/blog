@@ -1,0 +1,22 @@
+---
+tags: [windows]
+---
+
+基本使用：在cmd命令行中输入powershell就可以使用powershell了
+
+基本理念，面向对象而非字符串，管道间传递的是对象，外在表现形式为字符串，我觉得作为一门脚本语言，
+能够像powershell这样和操作系统如此的贴合，微软真的是了不起，看来我以前觉得微软技术差是我浅薄的见识了。
+
+Get-Member
+
+Get-Alias
+
+Get-Help
+
+powershell_ise.exe
+
+powershell.exe
+
+powershell远程连接
+
+
