@@ -2,6 +2,9 @@
 tags: [windows]
 ---
 
+reference:
+[http://www.pstips.net/powershell-online-tutorials/](http://www.pstips.net/powershell-online-tutorials/)
+
 基本使用：在cmd命令行中输入powershell就可以使用powershell了
 
 基本理念，面向对象而非字符串，管道间传递的是对象，外在表现形式为字符串，我觉得作为一门脚本语言，
