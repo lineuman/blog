@@ -23,3 +23,9 @@ powershell.exe
 powershell远程连接
 
 
+### 小技巧
+
+进程导出到csv
+
+Get-Process|Export-Csv D:\test.csv
+
