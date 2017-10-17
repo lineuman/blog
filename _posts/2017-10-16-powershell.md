@@ -10,15 +10,22 @@ reference:
 基本理念，面向对象而非字符串，管道间传递的是对象，外在表现形式为字符串，我觉得作为一门脚本语言，
 能够像powershell这样和操作系统如此的贴合，微软真的是了不起，看来我以前觉得微软技术差是我浅薄的见识了。
 
+通过别名的使用，使得powershell可以类似于bash或者sql语法
+
+powershell_ise.exe
+
+powershell.exe
+
 Get-Member
 
 Get-Alias
 
 Get-Help
 
-powershell_ise.exe
+Select-Object
 
-powershell.exe
+Where-Object
+
 
 powershell远程连接
 
@@ -26,6 +33,6 @@ powershell远程连接
 ### 小技巧
 
 进程导出到csv
-
+```
 Get-Process|Export-Csv D:\test.csv
-
+```
