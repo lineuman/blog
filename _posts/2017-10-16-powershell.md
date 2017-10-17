@@ -32,7 +32,11 @@ powershell远程连接
 
 ### 小技巧
 
+
+```
 进程导出到csv
-```
 Get-Process|Export-Csv D:\test.csv
+进程导出到html
+Get-Process|ConvertTo-Html
 ```
+
