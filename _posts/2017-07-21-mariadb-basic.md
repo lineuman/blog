@@ -23,6 +23,29 @@ mysql -u root -p （交互式输入密码）
 
 
 ```
+## mysql创建用户
+```
+CREATE USER dbadmin@localhost IDENTIFIED BY 'password';
+```
+
+## MySQL Access Control System
+mysql访问控制
+
+## mysql授权
+查看授权
+```
+SHOW GRANTS FOR dbadmin@localhost;
+```
+
+授权操作
+```
+
+```
+
+## mysql收回权限
+```
+
+```
 
 ## mysql备份
 
@@ -41,6 +64,8 @@ use databasename;
 show tables;
 desc tablename;
 show engines;
+	
+SHOW COLUMNS FROM database_name.table_name;
 ```
 
 ## 在命令行中执行mysql的sql语句
