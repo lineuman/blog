@@ -27,6 +27,10 @@ mysql -u root -p （交互式输入密码）
 ```
 CREATE USER dbadmin@localhost IDENTIFIED BY 'password';
 ```
+## mysql删除用户
+```
+DELETE FROM user WHERE User='username';
+```
 
 ## MySQL Access Control System
 mysql访问控制
