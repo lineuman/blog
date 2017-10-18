@@ -44,6 +44,9 @@ show engines;
 ```
 
 ## 在命令行中执行mysql的sql语句
+比如python既可以交互式也可以在命令行还可以写成脚本执行。（python -c "import this"）
+
+
 因为mysql提供了-e这个参数选项，-e后面可以添加要执行的命令语句。
 ```
 mysql -u root -p -e 'show databases;'
