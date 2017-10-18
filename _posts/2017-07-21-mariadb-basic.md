@@ -43,6 +43,12 @@ desc tablename;
 show engines;
 ```
 
+## 在命令行中执行mysql的sql语句
+因为mysql提供了-e这个参数选项，-e后面可以添加要执行的命令语句。
+```
+mysql -u root -p -e 'show databases;'
+```
+
 ## 数据库压力性能测试
 reference
 [http://dbaplus.cn/news-11-148-1.html](http://dbaplus.cn/news-11-148-1.html)
