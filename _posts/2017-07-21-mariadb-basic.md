@@ -105,4 +105,9 @@ mysqlslap为mysql自带压测工具
 tcpcopy可以实现流量回放的功能
 [https://github.com/session-replay-tools/tcpcopy](https://github.com/session-replay-tools/tcpcopy)
 
+## mysql技巧指南
+
+查看当前正在执行的语句
+
+show full processlist; 
 
