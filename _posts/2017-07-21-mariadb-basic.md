@@ -23,6 +23,12 @@ mysql -u root -p （交互式输入密码）
 
 
 ```
+## mysql开启远程连接
+Set up a remote MySQL database connection
+ 1. 要监听远程连接
+ bind-address
+ 2. 要给用户添加远程访问权限
+
 ## mysql创建用户
 ```
 CREATE USER dbadmin@localhost IDENTIFIED BY 'password';
