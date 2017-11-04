@@ -39,3 +39,19 @@ java访问字符串中的字符的方法是charAt()
 
 类中的private成员会被子类继承吗？
 
+java中的import和python中的import的区别？
+python中import是载入代码的必须手段
+java中import是为了方便使用包中的类的手段，也就是说import是优化代码的方式，即使没有import通过全名也能够实现功能。
+
+
+
+### setp 3 概念解析
+方法重载overloading:java 7 入门经典中解释如下Java允许在类中使用同样的名称定义多个方法，只要每个方法拥有唯一的一套参数即可。在类中以相同的名称定义两个或者多个方法的机制称为方法重载。
+
+
+
+
+
+
+
+
