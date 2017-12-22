@@ -30,3 +30,9 @@ docker images
 
 docker run 
 
+## 端口映射
+把容器的端口映射到主机上来
+docker run -p 4000:80
+
+
+### 容器操作
