@@ -26,6 +26,8 @@ these are some tags
 `maybe more`
 # About me
 
+我是一名测试工程师，目前生活在杭州，喜欢分享，喜欢开源,渴望成长,贵在坚持。
+
 I'm neuman, a primary coder, I'm interest in network security, python web spider and web development, or whatever else make me feel good.
 
 
