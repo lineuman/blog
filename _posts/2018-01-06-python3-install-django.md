@@ -69,3 +69,13 @@ DATABASES = {
  ```
  rsync -avz -e "ssh -p $portNumber" user@remoteip:/path/to/files/ /local/path/
  ```
+ 
+ ## django开始
+ ```
+ django-admin startproject ***
+ python manage.py startapp ***
+ 在setting.py中配置数据库，添加app
+ python manage.py makemigrations
+ python manage.py migrate
+ python manage.py createsupersuser
+ ```
