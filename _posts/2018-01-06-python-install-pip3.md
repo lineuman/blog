@@ -8,3 +8,11 @@ tags:[python]
 yum install python34
 sudo python3 -m ensurepip --default-pip
 ```
+## django如何利用已经存在的表建立model
+1.通过model生成django表
+
+2.假如已经存在表我怎么反向退出model呢？
+
+```
+django-admin inspectdb > model.py
+```
