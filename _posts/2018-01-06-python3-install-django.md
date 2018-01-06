@@ -75,7 +75,7 @@ DATABASES = {
  django-admin startproject ***
  python manage.py startapp ***
  在settings.py中配置数据库，添加app
- settings.py中配置LANGUAGE_CODE = 'zh-CN'设为中文
+ settings.py中配置LANGUAGE_CODE = 'zh-hans'设为中文
  python manage.py makemigrations
  python manage.py migrate
  python manage.py createsupersuser
