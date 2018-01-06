@@ -2,6 +2,18 @@
 tags: [mysql]
 ---
 # mysql小技巧
+
+###时间问题报错解决方法
+datetime
+
+timestamp
+
+```
+ERROR 1293 (HY000): Incorrect table definition; there can be only one TIMESTAMP column with CURRENT_TIMESTAMP in DEFAULT or ON UPDATE clause
+```
+当遇到这类问题的时候查看下你mysql的版本，然后google一下就可以得到结果了。
+
+
 ---
 
 delete from 单表子查询的时候出现如下问题
