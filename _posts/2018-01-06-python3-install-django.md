@@ -92,3 +92,11 @@ from .models import Test
 
 admin.site.register(Test)
 ```
+## mysql 存储引擎修改 字符集修改
+
+字符集服务端客户端都要修改
+
+
+
+
+
