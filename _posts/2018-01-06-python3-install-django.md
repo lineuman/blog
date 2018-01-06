@@ -62,3 +62,10 @@ DATABASES = {
  sudo yum install python34-devel
  sudo pip3 install mysqlclient
  ```
+ 
+ ## 本地开发，服务端代码同步过程
+ 我在pycharm中开发完成发布到服务端要执行的命令，可以alias起个别名
+ 
+ ```
+ rsync -avz -e "ssh -p $portNumber" user@remoteip:/path/to/files/ /local/path/
+ ```
