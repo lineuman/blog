@@ -1,6 +1,7 @@
 ---
-tags:[python]
+tags: [python]
 ---
+
 # python34 django2.0开发环境搭建
 
 ## 如何安装pip3
