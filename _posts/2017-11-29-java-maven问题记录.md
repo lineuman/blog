@@ -50,3 +50,9 @@ mvn install
 
 
 ```
+
+
+## 不知道为什么
+```
+命令行执行mvn test后在打包根项目再点击reimport all maven
+```
