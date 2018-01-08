@@ -3,11 +3,13 @@ tags: [java]
 ---
 
 # testng dataprovider
+```
 从数据源读取数据，进行自动循环测试的方法
 从数据中读取数据，进行测试
 从xml中读取数据
 从json中读取数据
 从csv中读取数据
+```
 ```
 import java.sql.*;
 import java.util.HashMap;
