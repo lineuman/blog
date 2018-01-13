@@ -70,3 +70,17 @@ configurations
 sources
 source配置问题
 
+
+## maven中的标签解释
+去除重复导入
+```
+exclusions
+    exclusion
+
+```
+
+```
+executions
+   execution
+```
+
