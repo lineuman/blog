@@ -56,3 +56,17 @@ mvn install
 ```
 命令行执行mvn test后在打包根项目再点击reimport all maven
 ```
+
+
+
+## groovy测试脚本在mvn test时候不运行的问题解决方法
+
+我通过groovy编写基于testng的测试用例,想通过mvn test运行，结果无法运行原因
+
+groovy + testng + maven
+
+mvn 
+configurations
+sources
+source配置问题
+
