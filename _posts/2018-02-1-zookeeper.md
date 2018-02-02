@@ -14,6 +14,22 @@ zkServer start
 zkCli
 
 ```
+# zookeeper是什么？
+推荐阅读
+
+[https://tech.imdada.cn/2015/12/03/service-registry-and-discovery-with-zk/](https://tech.imdada.cn/2015/12/03/service-registry-and-discovery-with-zk/)
+
+[https://tech.imdada.cn/2015/11/04/%E9%AB%98%E6%80%A7%E8%83%BD%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BC%98%E5%8C%96%E4%B9%8B%E8%B7%AF/](https://tech.imdada.cn/2015/11/04/%E9%AB%98%E6%80%A7%E8%83%BD%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BC%98%E5%8C%96%E4%B9%8B%E8%B7%AF/)
+
+分布式集群管理，分布式应用协调服务
+
+## 服务的注册和发现功能
+
+服务提供者
+
+服务注册中心
+
+服务消费者
 
 
 ----
