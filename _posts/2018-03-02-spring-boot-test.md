@@ -1,4 +1,3 @@
-
 ---
 tags: [java]
 ---
@@ -14,9 +13,19 @@ tags: [java]
 @SpringBootTest 为springApplication创建上下文并支持SpringBoot特性
 
 ```
-## spring boot的一些简单介绍
+### spring boot的一些简单介绍
 
-## junit的简单使用
+Controller
+Service
+Dao
+
+
+---
+测试方法
+
+
+### junit
+
 注解
 ```
 @Test
@@ -25,7 +34,8 @@ tags: [java]
 @BeforeClass
 @AfterClass
 ```
-## testng
+### testng
+
 比起junit我更偏向于testng
 
-主要的优点我认为是Listener和xml配置用例测试套
+主要的优点我认为是Listener的定制化和xml配置用例测试套
