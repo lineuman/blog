@@ -76,3 +76,9 @@ public class DataProvider_forDB implements Iterator {
     }
 }
 ```
+
+# testng listener
+[https://www.ibm.com/developerworks/cn/opensource/os-cn-testinglistener/index.html](https://www.ibm.com/developerworks/cn/opensource/os-cn-testinglistener/index.html)
+尽管 TestNG 的默认配置已经提供了不少强大的功能和灵活的选项，但是没有一种方案能够解决所有的问题。在实际应用中，我们多多少少会发现 TestNG 自带的功能无法满足我们的一些实际需求，尤其是关于测试方法运行的行为、报表以及通知功能。此时，我们就需要使用 TestNG 的监听器定制额外的功能以满足我们的需要。
+
+
