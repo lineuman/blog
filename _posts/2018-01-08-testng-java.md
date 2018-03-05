@@ -77,8 +77,14 @@ public class DataProvider_forDB implements Iterator {
 }
 ```
 
-# testng listener
+# testng listener监听器
 [https://www.ibm.com/developerworks/cn/opensource/os-cn-testinglistener/index.html](https://www.ibm.com/developerworks/cn/opensource/os-cn-testinglistener/index.html)
+
 尽管 TestNG 的默认配置已经提供了不少强大的功能和灵活的选项，但是没有一种方案能够解决所有的问题。在实际应用中，我们多多少少会发现 TestNG 自带的功能无法满足我们的一些实际需求，尤其是关于测试方法运行的行为、报表以及通知功能。此时，我们就需要使用 TestNG 的监听器定制额外的功能以满足我们的需要。
 
+使用监听器的方法有两种
+1. 通过xml配置listener
+2. 在源码中使用注解的方式
+
+在 @Listeners 中添加监听器跟在 testng.xml 添加监听器的不同之处在于，它不能添加 IAnnotationTransformer 和 IAnnotationTransformer2 监听器。原因是因为这两种监听器必须在更早的阶段添加到 TestNG 中才能实施修改注释的操作，所以它们只能在 testng.xml 添加。
 
