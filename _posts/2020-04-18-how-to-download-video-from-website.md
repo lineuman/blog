@@ -1,3 +1,9 @@
+---
+layout: post
+categories: thoughts
+tags: [thoughts]
+---
+
 # Download video from the internet
 
 Just For educational purposes only, not for commercial use.
