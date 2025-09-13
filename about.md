@@ -36,5 +36,8 @@ My favorite word is `Challenage Accepted!`
 # Old blog
 [before 2017-06](http://blog.csdn.net/lineuman/)
 
+# where you can find me?
+[https://x.com/lineuman123](https://x.com/lineuman123)
+
 
 
